@@ -1,0 +1,41 @@
+﻿@model List<Student>
+@{
+    int count = 1;
+}
+<div class="mt-5">
+    <div class="d-flex justify-content-between">
+        <h4>Students</h4>
+        <a class="btn btn-primary" asp-action="Create">Add</a>
+    </div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Number</th>
+                <th scope="col">Name</th>
+                <th scope="col">Lastname</th>
+                <th scope="col">Classroom</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@count</th>
+                    <td>@item.Number</td>
+                    <td>@item.Name</td>
+                    <td>@item.Surname</td>
+                    <td>@item.Classroom</td>
+                    <td>
+                        <form style="display:inline-block" method="post" asp-action="Delete" asp-route-number="@item.Number">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                        <a class="ms-3 btn btn-warning" asp-action="Update" asp-route-number="@item.Number">Update</a>
+                    </td>
+                </tr>
+                count++;
+            }
+        </tbody>
+    </table>
+</div>
