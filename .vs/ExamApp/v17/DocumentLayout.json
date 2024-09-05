@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\",
+  "WorkspaceRootPath": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\lenovo\\desktop\\examapp\\examapp\\views\\student\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|solutionrelative:examapp\\views\\student\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\seid.mikayilov\\desktop\\examapp\\examapp\\views\\lesson\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|solutionrelative:examapp\\views\\lesson\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\lenovo\\desktop\\examapp\\examapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\seid.mikayilov\\desktop\\examapp\\examapp\\views\\lesson\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|solutionrelative:examapp\\views\\lesson\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\seid.mikayilov\\desktop\\examapp\\examapp\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|solutionrelative:examapp\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\seid.mikayilov\\desktop\\examapp\\examapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|solutionrelative:examapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\lenovo\\desktop\\examapp\\examapp\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|solutionrelative:examapp\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\lenovo\\desktop\\examapp\\examapp\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|solutionrelative:examapp\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\lenovo\\desktop\\examapp\\examapp\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|solutionrelative:examapp\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|c:\\users\\seid.mikayilov\\desktop\\examapp\\examapp\\interfaces\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52340891-D1CD-4B0C-8A30-07C8F12ED177}|ExamApp\\ExamApp.csproj|solutionrelative:examapp\\interfaces\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,23 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "ExamApp\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "ExamApp\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T13:44:21.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Views\\Lesson\\Update.cshtml",
+              "RelativeDocumentMoniker": "ExamApp\\Views\\Lesson\\Update.cshtml",
+              "ToolTip": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Views\\Lesson\\Update.cshtml",
+              "RelativeToolTip": "ExamApp\\Views\\Lesson\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T13:32:23.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILessonService.cs",
+              "DocumentMoniker": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Interfaces\\ILessonService.cs",
+              "RelativeDocumentMoniker": "ExamApp\\Interfaces\\ILessonService.cs",
+              "ToolTip": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Interfaces\\ILessonService.cs",
+              "RelativeToolTip": "ExamApp\\Interfaces\\ILessonService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T13:09:40.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Views\\Lesson\\Create.cshtml",
+              "RelativeDocumentMoniker": "ExamApp\\Views\\Lesson\\Create.cshtml",
+              "ToolTip": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Views\\Lesson\\Create.cshtml",
+              "RelativeToolTip": "ExamApp\\Views\\Lesson\\Create.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAwwCAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-05T12:34:17.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LessonController.cs",
+              "DocumentMoniker": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Controllers\\LessonController.cs",
+              "RelativeDocumentMoniker": "ExamApp\\Controllers\\LessonController.cs",
+              "ToolTip": "C:\\Users\\seid.mikayilov\\Desktop\\ExamApp\\ExamApp\\Controllers\\LessonController.cs",
+              "RelativeToolTip": "ExamApp\\Controllers\\LessonController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwDUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T12:16:22.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -54,72 +107,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Views\\Student\\Update.cshtml",
-              "RelativeDocumentMoniker": "ExamApp\\Views\\Student\\Update.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Views\\Student\\Update.cshtml",
-              "RelativeToolTip": "ExamApp\\Views\\Student\\Update.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-04T18:43:43.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "ExamApp\\Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "ExamApp\\Views\\Student\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAABrAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-04T18:36:31.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Services\\StudentService.cs",
-              "RelativeDocumentMoniker": "ExamApp\\Services\\StudentService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Services\\StudentService.cs",
-              "RelativeToolTip": "ExamApp\\Services\\StudentService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T17:38:37.986Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Interfaces\\IStudentService.cs",
-              "RelativeDocumentMoniker": "ExamApp\\Interfaces\\IStudentService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Interfaces\\IStudentService.cs",
-              "RelativeToolTip": "ExamApp\\Interfaces\\IStudentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T17:36:59.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "ExamApp\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\ExamApp\\ExamApp\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "ExamApp\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAIwDcAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T17:34:24.133Z",
-              "EditorCaption": ""
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

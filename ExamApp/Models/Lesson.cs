@@ -21,6 +21,6 @@ namespace ExamApp.Models
         [Column(TypeName = "varchar(20)")]
         public string TeacherSurname { get; set; }
 
-        public List<Exam> Exams { get; set; }
+        public List<Exam>? Exams { get; set; }
     }
 }

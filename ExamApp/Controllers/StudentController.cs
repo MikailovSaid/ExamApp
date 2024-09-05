@@ -1,5 +1,5 @@
 ﻿using ExamApp.Interfaces;
-using ExamApp.Models;
+using ExamApp.ViewModels.Student;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ExamApp.Controllers
@@ -22,7 +22,7 @@ namespace ExamApp.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Student student)
+        public async Task<IActionResult> Create(StudentAddVM student)
         {
             if (!ModelState.IsValid)
             {
@@ -45,11 +45,12 @@ namespace ExamApp.Controllers
         {
             var data = await _studentService.GetStudentByNumber(number);
             if (data == null) return NotFound();
-            return View(data);
+            StudentUpdateVM model = new() { Number = number, Name = data.Name, Surname = data.Surname, Classroom = data.Classroom };
+            return View(model);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(decimal number, Student student)
+        public async Task<IActionResult> Update(decimal number, StudentUpdateVM student)
         {
             if (!ModelState.IsValid)
             {
@@ -58,7 +59,7 @@ namespace ExamApp.Controllers
             var data = await _studentService.GetStudentByNumber(number);
             if (data == null) return NotFound();
 
-            await _studentService.UpdateStudent(student);
+            await _studentService.UpdateStudent(data, student);
             return RedirectToAction("Index");
         }
     }

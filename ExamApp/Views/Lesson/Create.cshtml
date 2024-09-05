@@ -1,0 +1,47 @@
+﻿@model LessonAddVM
+<div class="mt-5">
+    <h5>Add Lesson</h5>
+    <form method="post" asp-action="Create">
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Code</label>
+                    <input type="text" class="form-control" asp-for="Code" />
+                    <span asp-validation-for="Code" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" asp-for="Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Classroom</label>
+                    <input type="number" class="form-control" asp-for="Classroom" />
+                    <span asp-validation-for="Classroom" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Teacher's Name</label>
+                    <input type="text" class="form-control" asp-for="TeacherName" />
+                    <span asp-validation-for="TeacherName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Teacher's Surname</label>
+                    <input type="text" class="form-control" asp-for="TeacherSurname" />
+                    <span asp-validation-for="TeacherSurname" class="text-danger"></span>
+                </div>
+            </div>
+            <div>
+                <a asp-action="Index" class="btn btn-light">Back</a>
+                <button type="submit" class="btn btn-primary ms-3">Add</button>
+            </div>
+        </div>
+    </form>
+</div>

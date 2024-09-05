@@ -1,6 +1,7 @@
 ﻿using ExamApp.Data;
 using ExamApp.Interfaces;
 using ExamApp.Models;
+using ExamApp.ViewModels.Student;
 using Microsoft.EntityFrameworkCore;
 
 namespace ExamApp.Services
@@ -16,8 +17,15 @@ namespace ExamApp.Services
             return datas;
         }
 
-        public async Task CreateStudent(Student student)
+        public async Task CreateStudent(StudentAddVM model)
         {
+            Student student = new()
+            {
+                Number = model.Number,
+                Name = model.Name,
+                Surname = model.Surname,
+                Classroom = model.Classroom,
+            };
             await _context.AddAsync(student);
             await _context.SaveChangesAsync();
         }
@@ -30,11 +38,19 @@ namespace ExamApp.Services
 
         public async Task<Student> GetStudentByNumber(decimal number)
         {
-            return await _context.Students.FirstOrDefaultAsync(s => s.Number == number);
+            return await _context.Students.AsNoTracking().FirstOrDefaultAsync(s => s.Number == number);
         }
 
-        public async Task UpdateStudent(Student student)
+        public async Task UpdateStudent(Student existing, StudentUpdateVM model)
         {
+            _context.Entry(existing).State = EntityState.Detached;
+            Student student = new()
+            {
+                Number = existing.Number,
+                Name = model.Name,
+                Surname = model.Surname,
+                Classroom = model.Classroom,
+            };
             _context.Students.Update(student);
             await _context.SaveChangesAsync();
         }
