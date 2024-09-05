@@ -33,7 +33,7 @@ namespace ExamApp.Services
 
         public async Task<Lesson> GetLessonByCode(string code)
         {
-            return await _context.Lessons.AsNoTracking().FirstOrDefaultAsync(x => x.Code == code);
+            return await _context.Lessons.AsNoTracking().Include(x => x.Exams).FirstOrDefaultAsync(x => x.Code == code);
         }
 
         public async Task<Lesson> GetLessonByName(string name)

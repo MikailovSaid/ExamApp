@@ -1,0 +1,41 @@
+﻿@model ExamUpdateVM
+<div class="mt-5">
+    <h5>Update Exam</h5>
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <form method="post" asp-action="Update">
+        <div class="row">
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Lesson code</label>
+                    <select class="form-control" asp-for="LessonCode" asp-items="ViewBag.LessonCode"></select>
+                    <span asp-validation-for="LessonCode" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Student number</label>
+                    <select class="form-control" asp-for="StudentNumber" asp-items="ViewBag.StudentNumber"></select>
+                    <span asp-validation-for="StudentNumber" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Price</label>
+                    <input type="text" class="form-control" asp-for="Price" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="mb-3">
+                    <label class="form-label">Date</label>
+                    <input type="date" class="form-control" asp-for="Date" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+            </div>
+            <div>
+                <a asp-action="Index" class="btn btn-light">Back</a>
+                <button type="submit" class="btn btn-primary ms-3">Update</button>
+            </div>
+        </div>
+    </form>
+</div>
